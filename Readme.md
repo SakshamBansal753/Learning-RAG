@@ -82,9 +82,7 @@ Whether you're new to RAG or looking to deepen your understanding, this reposito
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Learning-RAG.git
-
-cd Learning-RAG
+(https://github.com/SakshamBansal753/Learning-RAG.git)
 ```
 
 Create a virtual environment:
