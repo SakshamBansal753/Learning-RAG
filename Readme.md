@@ -3,6 +3,7 @@
 A comprehensive repository dedicated to learning **Retrieval-Augmented Generation (RAG)** through practical examples, tutorials, and mini-projects.
 
 Whether you're new to RAG or looking to deepen your understanding, this repository provides a structured learning path covering the fundamentals, implementation techniques, and advanced concepts.
+You will love it
 
 ---
 
