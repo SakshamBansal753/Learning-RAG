@@ -1,0 +1,13 @@
+# LangChain Research Notes (One-Page Summary)
+
+**LangChain** is an open-source framework for developing applications powered by Large Language Models (LLMs). It simplifies the process of integrating LLMs with external data sources, APIs, databases, and custom business logic. LangChain provides modular components that enable developers to build intelligent applications such as chatbots, question-answering systems, document analyzers, and AI agents.
+
+The core building blocks of LangChain include **models, prompts, chains, retrievers, tools, memory, and agents**. Models represent the LLMs (e.g., OpenAI, Anthropic, Gemini, or local models), while prompt templates allow developers to create reusable and dynamic prompts. Chains combine multiple components into a workflow, enabling sequential execution of tasks such as prompt generation, model inference, and output parsing.
+
+A major use case of LangChain is **Retrieval-Augmented Generation (RAG)**. In a RAG pipeline, documents are loaded, split into smaller chunks, converted into vector embeddings, and stored in a vector database such as FAISS, Chroma, Pinecone, or Qdrant. When a user submits a query, the retriever searches for the most relevant document chunks, which are then provided to the LLM as context to generate accurate and context-aware responses.
+
+LangChain also supports **agents**, which extend the capabilities of LLMs by allowing them to interact with external tools and make decisions dynamically. Agents can use calculators, web search APIs, databases, Python execution environments, or custom functions to complete complex tasks. Memory modules help preserve conversation history, enabling applications to maintain context across multiple interactions.
+
+The introduction of the **LangChain Expression Language (LCEL)** provides a modern and efficient way to compose workflows using a simple pipeline syntax. LCEL supports streaming, asynchronous execution, batching, and improved readability. For more advanced applications, **LangGraph** builds on LangChain by enabling stateful, graph-based workflows with conditional branching, loops, multi-agent collaboration, and human-in-the-loop interactions.
+
+Overall, LangChain has become one of the most widely used frameworks for LLM application development because of its modular architecture, extensive integrations, and support for production-ready AI systems. It enables developers to build scalable, maintainable, and intelligent applications that combine the reasoning capabilities of language models with real-world data and external services.
